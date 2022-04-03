@@ -26,6 +26,7 @@ export default function Home() {
         <a
           href="https://www.facebook.com/Supersevenstudio-1922796287942969"
           target="_blank"
+          rel="noreferrer noopener"
           className="mt-6 block bg-green-700 px-6 py-3 text-lg text-white rounded-md"
         >
           Contact Us
