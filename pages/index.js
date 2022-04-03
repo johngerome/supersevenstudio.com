@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -10,7 +9,6 @@ export default function Home() {
           name="description"
           content="Photography and videography based on Bohol"
         />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <div className="md:p-10 text-center">
@@ -20,7 +18,7 @@ export default function Home() {
           height="600"
           style={{ border: 'none', overflow: 'hidden' }}
           scrolling="no"
-          frameborder="0"
+          frameBorder="0"
           allowFullScreen
           allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
           className='shadow-lg'
@@ -28,6 +26,7 @@ export default function Home() {
         <a
           href="https://www.facebook.com/Supersevenstudio-1922796287942969"
           target="_blank"
+          rel="noreferrer noopener"
           className="mt-6 block bg-green-700 px-6 py-3 text-lg text-white rounded-md"
         >
           Contact Us
